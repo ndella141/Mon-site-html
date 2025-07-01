@@ -1,0 +1,23 @@
+exo1
+git init
+git add .
+git commit -m "first commit"
+git branch -m main
+git remote add origin https://github.com/ndella141/Mon-site-html.git
+git push -u origin main
+
+exo2
+git status
+git add .
+git commit "changer la couleur du texte en vert"
+git branch test
+git checkout test
+git switch test
+git pull origin main
+
+exo3
+git status
+git log
+git add
+git commit -m "ajout d'un message 'je suis un pro de GIT' en bleu"
+git push origin test
